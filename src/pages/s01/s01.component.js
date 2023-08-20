@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
-function S01Component(props) {
-  useEffect(() => {
-    document.title = props["title"];
-  }, [props]);
+import React from "react";
+function S01Component() {
   return (
     <div className="App">
       <h1>worked</h1>

@@ -1,8 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 
-export default function NotFound(props) {
-  useEffect(() => {
-    document.title = props["title"];
-  }, [props]);
+export default function NotFound() {
   return <div>NOT FOUND</div>;
 }

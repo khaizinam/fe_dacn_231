@@ -6,16 +6,19 @@ export const SCREEN = {
   s01: {
     id: "s01",
     path: "/s01",
-    component: <S01Component title="màn hình s01" />,
+    title: "Màn hình s01",
+    component: <S01Component />,
   },
   s02: {
     id: "s02",
     path: "/",
-    component: <S02Component title="Home Page" />,
+    title: "Home Page",
+    component: <S02Component />,
   },
   s404: {
     id: "s404",
     path: "/*",
-    component: <NotFound title="404" />,
+    title: "404 Page",
+    component: <NotFound />,
   },
 };
